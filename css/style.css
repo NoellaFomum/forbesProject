@@ -1,0 +1,519 @@
+.main-body{
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+}
+.box-style1{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border:2px solid black;
+    background-color: black;
+    margin: 1%;
+    cursor: pointer;
+}
+.hamburger-icon,.envelop-in{
+    border: 2px solid black;
+    height: 40px;
+    flex-basis: 2%;
+    margin: 1% ;
+    justify-content: center;
+    align-items: center;
+    padding: .5%;
+}
+.subsribe-now,.subscribe-color{
+    border: 2px solid black;
+    color: #fff;
+    height: 40px;
+    flex-basis: 10%;
+    margin: 1% ;
+    padding-top: 10px;
+    font: 600 12px / 16px Work Sans, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: -.2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.logo-in{
+    border: 2px solid black;
+    height: 40px;
+    flex-basis: 10%;
+    margin: 1% 
+}
+.submit-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    font: 13px Work Sans, sans-serif;
+    letter-spacing: .5px;
+    height: 40px;
+    flex-basis: 5%;
+    margin: 1% 
+    
+}
+.search-bar{
+    border: 2px solid black;
+    height: 20px;
+    margin: 1% ;
+    
+}
+.invisible-box{
+    height: 40px;
+    flex-basis: 5%;
+    margin: 1% ;
+}
+.subsribe-year,.sub{
+    height: 20px;
+    flex-basis: 10%;
+    margin: 1% ;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #dc0000;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font: 600 12px / 16px Work Sans, sans-serif;
+    letter-spacing: -.2px;
+    margin-right: 16px;
+    outline: none;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-box{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    margin: 1%;
+    
+}
+.part2,.part3,.part4,.part5,.part6{
+    margin: 1%;
+    flex-basis: 20%;
+    border-left: 1px solid #737373;
+    padding: 9px;
+}
+.broke-up{
+    background-color: #dc0000;
+    height: 20px;
+    width: 25%;
+    color: #fff;
+    font-size: 1.17em;
+    font-weight: bold;
+    font: 10px / 12px Work Sans, sans-serif;
+    left: 50%;
+    letter-spacing: .5px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, 50%);
+    left: 90px;
+    text-align: left;
+    top: 16px;
+    transform: none;
+    align-items: center; 
+}
+.part1{
+    flex-basis: 20%;
+    height: 150px;
+}
+
+.box-flu{
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.71;
+    font-family: Merriweather;
+    max-height: 48px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.dollar-tree{
+    height: 1500px;
+    margin: 1%;
+    width: 100%;
+    display: flex;
+}
+.right-article1{
+    position: relative;
+    height: 800px;
+    width: 65%; 
+ }
+.preview{
+  cursor: pointer;
+  margin-bottom: 16px;
+  bottom: 0;
+  color: #fff;
+  font: 10px / 12px Work Sans, sans-serif;
+  left: 50%;
+  letter-spacing: .5px;
+  margin: 0%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%, 50%);
+  z-index: 2; 
+  background:#7E7467;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  
+}
+.left-article2{
+    border-left: 1px solid  #737373;
+    height: 1500px;
+    width: 35%;
+    margin-left: 2%;
+    display: block;
+    padding-left: 35px;
+
+}
+
+.aside1,.aside2{
+    height: 165px;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.aside3{
+    height: 300px;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.new-you{
+    color: #000;
+    font: 700 18px / 26px Merriweather, GeorgiaCustom;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Merriweather, GeorgiaCustom;
+    margin-bottom: 16px;
+}
+.btn-sign{
+    background: #007ac8;
+    border-color: #007ac8;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    padding: 11px 16px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: Work Sans, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.first-box{
+    height: 20px;
+}
+.web-bi, .gul,.par{   
+    color: #737373;
+    font: 10px / 12px Work Sans, sans-serif;
+    letter-spacing: -.2px;
+    text-transform: capitalize;
+}
+.pre-tech{   
+color: #706031;
+font: 600 10px / 12px Work Sans, sans-serif;
+letter-spacing: .5px;
+margin-right: 8px;
+text-transform: uppercase;
+}
+.hacker-dod{
+    width: 60%;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: top;
+    color: #333;
+    line-height: 22px;
+    font-family: Merriweather, GeorgiaCustom;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: left;
+}
+.dodlink{
+    border: 2px solid black;
+    height: 120px;
+    width: 80%;
+    display: inline-block;
+}
+.small-pic{
+    height: 120px;
+    width: 20%;
+    display: inline-block;
+    margin: 1%;
+}
+.save-btn svg {
+    height: 30px;
+    fill: #0000000a;
+    stroke: #007ac8;
+    stroke-width: 2;
+    justify-content: flex-end;
+}
+button.save-btn{
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 8px;
+}
+.cachedicon{
+    border: 2px solid black;
+    height: 60px;
+    width: 85%;
+    color: #333;
+}
+.bestby{
+    height: 150px;
+    width: 100%;
+}
+.head-link{
+    cursor: pointer;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    font-family: Merriweather, GeorgiaCustom;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: #333;
+}
+.description{
+    color: #333;
+    font: normal 16px / 1.5 tabular-numbers, Georgia;
+    text-align: center;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.author-grp,.men{
+    text-align: center;
+    color: #333;
+}
+
+.suffle,.initial-scale{
+    border: 2px solid black;
+    height: 60px;
+}
+
+.link-ad{
+    height: 130px;
+    width: 100%;
+}
+
+.tiktoker,.singula{
+    max-height: 48px;
+    overflow-y: hidden;
+    cursor: pointer;
+    letter-spacing: .5px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Merriweather, GeorgiaCustom;
+    color: #333;
+}
+.begin-on{
+    height: 525px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.bill-ban{
+    height: 525px;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.amane-afric{
+    height: 525px;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.image-africa,.tik-pic{
+    width: 100%;
+    justify-content: center;
+}
+.badmin{
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: tabular-numbers, Georgia;
+}
+
+.men0{
+    color: #C41A23;
+    font-size: 12px;
+    line-height: 2;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 4px;
+}
+
+.quotes{
+    display: inline-block;
+    height: 210px;
+    width: 100%;
+    margin: 1%;
+}
+
+.dairy{
+    width: 70%;
+    height: 30px;
+    justify-content: center;
+    margin-left: 5%;
+    color: #333;
+    font-family: Merriweather, GeorgiaCustom;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    position: relative;
+    text-align: center;
+    font: 700  
+}
+.execute,.social-media{
+    width: 82%;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.men{
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+}
+
+.sillas-healthy{
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+}
+.places{
+    display: block;
+    background-color: #fcfcfc;
+    color: #737373;
+    font-size: 18px;
+    letter-spacing: 2px;
+    top: 4px;
+    transform: translate(-0%, -50%);
+    z-index: 1;
+    cursor: pointer;
+    left: 50%;
+    letter-spacing: .5px;
+    margin: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.stories-teller{
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    margin: 1%;
+}
+.big-p{
+    height: 20px;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+}
+.newsletters-email{
+    background-color: #fff;
+    border: 1px solid #737373;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(115, 115, 115);
+    border-right-color: rgb(115, 115, 115);
+    border-bottom-color: rgb(115, 115, 115);
+    border-left-color: rgb(115, 115, 115);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font: 400 14px "Work Sans", sans-serif;
+    height: 48px;
+    width: 100%;
+    margin-right: 16px;
+    padding: 13px 16px;
+    letter-spacing: 0.2px;
+    cursor: text;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    text-rendering: auto;
+    color: fieldtext;
+}

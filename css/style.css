@@ -516,4 +516,13 @@ h2{
     appearance: auto;
     text-rendering: auto;
     color: fieldtext;
+} 
+.hamburger-icon{
+    display: flex;
+}
+.icon{
+    width: 15px;
+    height: 2px;
+    color: #fcfcfc;
+    background: white;
 }
